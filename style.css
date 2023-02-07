@@ -3,6 +3,10 @@ html, body {
     padding: 0;
 }
 
+.clear {
+    clear: both;
+}
+
 .container {
     height: 425px;
     background-color: rgb(51, 164, 225);
@@ -50,3 +54,27 @@ html, body {
     background-color: rgb(108, 107, 139);
 }
 
+.text h3 {
+    margin-left: 300px;
+    color: rgb(255, 255, 255);
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.text-left {
+    margin-left: 300px;
+    width: 500px;
+    height: 400px;
+    color: rgb(255, 255, 255);
+    display: block;
+    float: left;
+}
+
+.text-right {
+    display: block;
+    float: right;
+    width: 500px;
+    height: 100px;
+    margin-right: 160px;
+    color: rgb(255, 255, 255);
+}
