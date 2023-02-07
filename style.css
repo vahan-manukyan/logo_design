@@ -10,8 +10,43 @@ html, body {
 
 .logo {
     float: left;
+    margin-left: 300px;
+    margin-top: 10px;
 }
 
 .nav {
     float: right;
+    margin-right: 300px;
+    margin-top: 40px;
 }
+
+.logo a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav ul li {
+    float: left;
+    padding: 0 5px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: block;
+    padding: 5px;
+}
+
+.nav a:hover {
+    color: rgb(9, 9, 9);
+    background-color: rgb(108, 107, 139);
+}
+
